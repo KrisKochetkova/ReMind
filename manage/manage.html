@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Card management</title>
+  <link rel="stylesheet" href="manage.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../icons/menu_book_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="book">
+        <h1>MY CARDS</h1>
+    </div>
+  
+  <div id="cards-container"></div>
+  <template id="card-template">
+    <div class="card">
+      <a class="url" href="" target="_blank"></a>
+      <p class="text"></p>
+      <label for="file">Progress:</label>
+        <progress class ="scale" id="file" max="6" value="5">70%</progress>
+        <details class="details">
+            <summary>
+               DETAILS
+            </summary>
+            <p class="info"></p>
+          </details>
+      <div class="actions">
+        <button class="learned">LEARNED</button>
+        <button class="repeat-again">REPEAT</button>
+        <button class="delete">DELETE</button>
+      </div>
+    </div>
+  </template>
+  <script type="module" src="manage.js"></script>
+</body>
+</html>
