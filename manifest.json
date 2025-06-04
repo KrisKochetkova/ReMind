@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "ReMind",
     "version": "1.0",
-    "description": "Сохраняй и вспоминай то, что ты гуглишь.",
+    "description": "Save and remember what you google.",
     "permissions": [
         "contextMenus",
         "storage",
@@ -37,7 +37,6 @@
     ],
     "web_accessible_resources": [
       {
-        "resources": ["reminder.html"],
         "matches": ["<all_urls>"]
       }
     ],
